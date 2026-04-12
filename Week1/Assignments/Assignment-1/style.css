@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    font-family: Inter, sans-serif;
+    font-weight: 750;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding-top: 4vh;
+}
+.maintext{
+    font-size: 17px;
+}
+.danta{
+    font-size: 12px;
+    font-weight: 700;
+}
+.mainbody{
+    flex: 2;
+    height: 80vh;
+}
+
+.border-line {
+  border-bottom: 2px solid rgb(229, 229, 232);
+  width: 50%; 
+  margin-left: 60vh;
+  margin-right: 80vh;
+}
+
+.google{
+    display: flex;
+    border: 2px solid rgb(229, 229, 232);
+    justify-content: space-between;
+    margin-left: 75vh;
+    margin-right: 75vh;
+    padding:1vh;
+    border-radius: 12px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+.google:hover{
+    background-color: aliceblue;
+}
+.googletext{
+    padding-right: 9vh;
+    font-size: 15px;
+}
+
+.create{
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    padding-top: 20vh;
+    padding-bottom: 3vh;
+}
+
+.line{
+    border-bottom: 2px solid rgb(229, 229, 232);
+    margin-left: 75vh;
+    margin-right: 75vh;
+    padding-top: 3vh;
+}
+
+.email{
+    text-align: center;
+    padding-top: 2vh;
+    font-family: "Inter", sans-serif;
+    margin-right: 30vh;
+}
+
+.emailbox{
+    border: 2px solid rgb(229, 229, 232);
+    padding: 2vh;
+    margin-left: 75vh;
+    margin-right: 75vh;
+    border-radius: 12px;
+    margin-top: 1vh;
+}
+.emailbox:hover{
+    border: 2px solid rgb(212, 212, 217);
+    cursor:pointer;
+}
+
+.password{
+    text-align: center;
+    padding-top: 1vh;
+    font-family: "Inter", sans-serif;
+    margin-right: 27vh;
+}
+
+.signup{
+    border: 2px solid rgb(229, 229, 232);
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    margin-left: 75vh;
+    margin-right: 75vh;
+    border-radius: 12px;
+    padding-bottom: 15px;
+    font-family: "Inter", sans-serif;
+    background-color: hsl(240, 4.7%, 66.7%);
+    color: white;
+    font-size: 15px;
+}
+.signup:hover{
+    background-color: hsl(240, 8%, 72%);
+    border: 2px solid rgb(212, 212, 217);
+}
+
+.regis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    padding-top: 1vh;
+}
+
+.signin{
+    color: hsl(240, 1%, 59%);
+    padding-left: 1vh;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 25vh;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+}
+
+.huhu{
+    color: hsl(240, 1%, 59%);
+}
+
+.haha{
+    padding-left: 2px;
+    font-size: 13px;
+    color:hsl(240, 1%, 59%);
+}
+.haha:hover{
+    color: hsl(240, 0%, 46%);
+}
