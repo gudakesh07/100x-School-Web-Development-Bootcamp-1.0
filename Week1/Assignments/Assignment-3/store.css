@@ -1,0 +1,369 @@
+.html,
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #fafafa;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 15px;
+  margin-left: 0;
+}
+
+.leftnavbar {
+  display: flex;
+  margin-left: 325px;
+}
+.H00xdevs {
+  display: flex;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 19px;
+  align-items: center;
+}
+
+.x {
+  color: red;
+}
+
+.home {
+  color: #011049;
+  font-family: "Lato", sans-serif;
+}
+.courses {
+  font-family: "Lato", sans-serif;
+  color: #011049;
+}
+
+.rightnavbar {
+  display: flex;
+}
+
+.inputfield {
+  display: flex;
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+
+  align-items: center;
+  padding-right: 110px;
+}
+.inputbox {
+  padding-left: 10px;
+  font-size: 14px;
+  padding-bottom: 2px;
+}
+.searchbar {
+  align-items: center;
+  padding-left: 10px;
+  padding-top: 2px;
+}
+.R {
+  font-family: "Lato", sans-serif;
+  background-color: #150861;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 50px;
+  color: #ffffff;
+  margin-right: 325px;
+  margin-left: 10px;
+}
+
+.home {
+  display: flex;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  height: 500px;
+  width: 2000px;
+  position: relative;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(23, 37, 84, 1),
+    rgba(30, 58, 138, 0.3),
+    rgba(23, 37, 84, 0)
+  );
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mainphoto {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 72px;
+  font-family: "Lato", "Lato Fallback";
+  color: white;
+  font-weight: 700;
+  padding-top: 100px;
+  padding-left: 320px;
+}
+
+.top-leftt {
+  position: absolute;
+  top: 68px;
+  left: 16px;
+  font-size: 72px;
+  font-family: "Lato", "Lato Fallback";
+  color: white;
+  font-weight: 700;
+  padding-top: 130px;
+  padding-left: 320px;
+}
+.top-photo {
+  position: absolute;
+  top: 68px;
+  left: 16px;
+  font-size: 72px;
+  font-family: "Lato", "Lato Fallback";
+  color: white;
+  font-weight: 700;
+  padding-top: 220px;
+  padding-left: 320px;
+}
+
+.para {
+  position: absolute;
+  top: 68px;
+  left: 16px;
+  font-size: 24px;
+  font-family: "Lato", "Lato Fallback";
+  color: white;
+  font-weight: 500;
+  padding-top: 290px;
+  padding-left: 320px;
+}
+.graph {
+  position: absolute;
+  top: 68px;
+  left: 16px;
+  font-size: 24px;
+  font-family: "Lato", "Lato Fallback";
+  color: white;
+  font-weight: 500;
+  padding-top: 320px;
+  padding-left: 320px;
+}
+
+.best {
+  padding-top: 80px;
+  padding-left: 340px;
+  font-family: "Lato", "Lato Fallback";
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.tshirts {
+  display: flex;
+  padding-left: 340px;
+  /* padding-right: 320px; */
+  padding-top: 50px;
+}
+.tshirts:hover {
+  cursor: pointer;
+}
+.tshirtss {
+  display: flex;
+  padding-left: 340px;
+  /* padding-right: 320px; */
+  padding-top: 50px;
+}
+.tshirtss:hover {
+  cursor: pointer;
+}
+.tshirt {
+  border: 2px solid #e5e7eb;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+
+.tshirtp {
+  background-color: #ffffff;
+  border-radius: 14px 14px 0 0;
+}
+
+.niche {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.information {
+  font-family: "Lato", "Lato Fallback";
+  font-size: 18px;
+  font-weight: 600;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 50px;
+}
+.price {
+  font-size: 20px;
+  font-weight: 600;
+}
+.visit {
+  font-size: 13px;
+  color: #8496a7;
+  align-items: center;
+}
+
+.yay {
+  color: #6a7282;
+  font-family: "Lato", "Lato Fallback";
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.footer {
+  background-color: #000;
+  width: 1904px;
+  height: 528px;
+}
+
+.c00xdevs {
+  display: flex;
+  font-family: "Lato", "Lato Fallback";
+  font-size: 30px;
+  font-weight: 800;
+  padding-top: 90px;
+}
+.upperwala {
+  padding-left: 340px;
+  padding-right: 340px;
+  display: flex;
+  justify-content: space-between;
+}
+.hun {
+  color: white;
+}
+
+.XX {
+  color: red;
+}
+
+.Devss {
+  color: white;
+}
+
+.rules {
+  color: #d1d5dc;
+  font-family: "Lato", "Lato Fallback";
+  padding-top: 90px;
+}
+.terms {
+  padding-bottom: 10px;
+}
+.privacy {
+  padding-bottom: 10px;
+}
+.Refund {
+  padding-bottom: 10px;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 90px;
+  padding-bottom: 10px;
+}
+.youtube {
+  background-color: #222222;
+  padding-top: 5px;
+  padding-left: 9px;
+  padding-right: 9px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  font-size: 15px;
+  line-height: 1;
+  transform: translateX(1px);
+}
+
+.twitter {
+  background-color: #222222;
+  padding-top: 5px;
+  padding-left: 9px;
+  padding-right: 9px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  font-size: 15px;
+  line-height: 1;
+  transform: translateX(1px);
+}
+
+.instagram {
+  background-color: #222222;
+  padding-top: 5px;
+  padding-left: 9px;
+  padding-right: 9px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  font-size: 15px;
+  line-height: 1;
+  transform: translateX(1px);
+}
+
+.linkdin {
+  background-color: #222222;
+  padding-top: 5px;
+  padding-left: 9px;
+  padding-right: 9px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  font-size: 15px;
+  line-height: 1;
+  transform: translateX(1px);
+}
+
+.copy {
+  color: #8c93a0;
+  font-size: 15px;
+  font-family: "Lato", "Lato Fallback";
+  padding-top: 10px;
+}
+
+.nichewala {
+  padding-left: 340px;
+  padding-right: 340px;
+  padding-top: 50px;
+}
